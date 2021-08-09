@@ -17,10 +17,13 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'fred.jpg',
+  paragraphOne:
+    'I have worked in various roles to do with digital media and web development. I have always been drawn to the web development industry because not only do I find making websites and apps magic, the tools are constantly evolving and creativity is limitless.',
+  paragraphTwo:
+    'My journey in web dev took off in 2020 during lockdown in New Zealand. Since then, I have worked in marketing for StretchSense, a company that manufactures a motion capture glove solution.',
+  paragraphThree:
+    'My goal is to create fullstack applications and my current focus has shifted from frontend to building Node.js APIs. I find that every bit as creative as building a beautiful UI in React.',
   // resume: // if no resume, the button will not show up
 };
 
