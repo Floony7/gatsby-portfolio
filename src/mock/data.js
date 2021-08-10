@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'My journey in web dev took off in 2020 during lockdown in New Zealand. Since then, I have worked in marketing for StretchSense, a company that manufactures a motion capture glove solution.',
   paragraphThree:
-    'My goal is to create fullstack applications and my current focus has shifted from frontend to building Node.js APIs. I find that every bit as creative as building a beautiful UI in React.',
+    'Web development has, therefore, been very much a side passion. My goal is to create fullstack applications, thus, my focus has shifted from frontend to building Node.js APIs. I find backend code a very creative avenue, even if the result is not as flashy as a beautiful frontend UI.',
   // resume: // if no resume, the button will not show up
 };
 
@@ -60,7 +60,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'dad.jpg',
     title: 'React Dad Jokes App (in development)',
-    info: 'Dad Jokes generator that will add jokes to Local Storage and have upvoting and downvoting functionality (yet to be added)',
+    info: 'Dad Jokes generator that will add jokes to Local Storage and have upvoting and downvoting functionality (yet to be added). The UI is primarily made from Tailwind CSS.',
     info2: '',
     url: 'https://gallant-haibt-5b9dc5.netlify.app/',
     repo: 'https://github.com/Floony7/react-dad-jokes', // if no repo, the button will not show up
