@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Fred Lunjevich',
-  subtitle: 'Web Dev | Auckland, NZ',
+  subtitle: 'Web Dev | Birmingham, UK',
   cta: 'About me',
 };
 
