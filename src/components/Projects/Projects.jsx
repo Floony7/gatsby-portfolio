@@ -49,7 +49,8 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
+                      {url.includes('http') ? (
+                        <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn"
@@ -57,8 +58,11 @@ const Projects = () => {
                       >
                         See Live
                       </a>
+                      ) : <span style={{ color: "fff", textTransform: "uppercase", fontSize: "1.75rem" }}>{url}</span>
 
-                      {repo.includes('http') ? (
+                      }
+
+                      {repo.includes('github') ? (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -67,7 +71,7 @@ const Projects = () => {
                         >
                           Source Code
                         </a>
-                      ) : <h3 style={{ color: "fff", textTransform: "uppercase" }}>Proprietary code</h3>}
+                      ) : <span style={{ color: "fff", textTransform: "uppercase", fontSize: "1.75rem" }}>Proprietary code</span>}
                     </div>
                   </Fade>
                 </Col>

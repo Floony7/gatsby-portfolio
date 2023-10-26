@@ -26,7 +26,7 @@ export const aboutData = {
   'I have reignited my love of Next.js and enjoying the process of getting back into the Jamstack universe, having also worked with Gatsby over the years.',  
   // resume: // if no resume, the button will not show up
 };
-const inactive = "Project no longer active";
+const inactive = "Inactive";
 
 // PROJECTS DATA
 export const projectsData = [
@@ -52,7 +52,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'countries.jpg',
     title: 'React Countries app',
-    info: 'Using a coutries API to pull data through on countries and the regions they are situated. Uses React Context API and React Router to display country pages.',
+    info: 'Using a countries API to pull data through on countries and the regions they are situated. Uses React Context API and React Router to display country pages.',
     info2: '',
     url: `${inactive}`,
     repo: 'https://github.com/Floony7/react-countries-reference-app',
