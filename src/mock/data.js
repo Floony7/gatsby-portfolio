@@ -21,13 +21,9 @@ export const aboutData = {
   paragraphOne:
     'In August 2021, amidst yet another lockdown in New Zealand, I moved from Marketing to the Software Development team at motion capture glove company StretchSense.',
   paragraphTwo:
-    'This was a momentous occasion for me, as I had spent the previous 5 years building my web development and React skills in my quest of a suitable dev opportunity.',
+    'This was a momentous occasion for me, as I had spent the previous 5 years building my web development and React skills in my quest for a suitable dev opportunity. Fast forward to 2023, I am still at StretchSense, having been part of a software rebuild that has truly been the most incredible project I have ever worked on (no marketing project could ever come close!).',
   paragraphThree:
-    'Fast forward to 2023, I am still currently at StretchSense, having been part of a software rebuild that has truly been the most incredible project I have ever worked on (no marketing project could ever come close!)',
-  paragraphFour:
-    'As of October 2023, my priorities have shifted. I want to take my React, TypeScript, CSS and Git experience and make the move back to web development, which has always been my "first love". I am excited to get back into web and focus on building viusually appealing and responsive interfaces.',
-  paragraphFive:
-  'I have reignited my love of Next.js and enjoying the proccess of getting back into the Jamstack universe, having also worked with Gatsby throughout the years.',
+  'I have reignited my love of Next.js and enjoying the process of getting back into the Jamstack universe, having also worked with Gatsby over the years.',  
   // resume: // if no resume, the button will not show up
 };
 
