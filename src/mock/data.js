@@ -42,7 +42,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'countries.jpg',
-    title: 'React Countries App (in development)',
+    title: 'React Countries App',
     info: 'Using a coutries API to pull data through on countries and the regions they are situated. Uses React Context API and React Router to display country pages.',
     info2: '',
     url: `${inactive}`,

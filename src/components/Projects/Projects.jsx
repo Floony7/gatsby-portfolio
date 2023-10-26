@@ -58,7 +58,7 @@ const Projects = () => {
                         See Live
                       </a>
 
-                      {repo && (
+                      {repo.includes('http') ? (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -67,7 +67,7 @@ const Projects = () => {
                         >
                           Source Code
                         </a>
-                      )}
+                      ) : <h3 style={{ color: "fff", textTransform: "uppercase" }}>Proprietary code</h3>}
                     </div>
                   </Fade>
                 </Col>
