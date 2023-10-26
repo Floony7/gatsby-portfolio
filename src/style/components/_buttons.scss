@@ -28,8 +28,7 @@
   background: gold;
   border: 1px solid rgba(0, 0, 0, 0.7);
   cursor: pointer;
-  text-transform: uppercase;
-  font-size: 1.15rem;
+  font-size: 1rem;
 	text-decoration: none;
   padding: .5em 1.75em;
 }
@@ -37,7 +36,7 @@
 .cta-btn--hero:hover,
 .cta-btn--hero:focus {
 	background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
-	color: #232323;
+	color: #fff;
 }
 
 /* Projects Style*/
