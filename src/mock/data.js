@@ -63,7 +63,7 @@ export const projectsData = [
     info: 'Dad Jokes generator that will add jokes to Local Storage and have upvoting and downvoting functionality (yet to be added). The UI is primarily made from Tailwind CSS.',
     info2: '',
     url: 'https://gallant-haibt-5b9dc5.netlify.app/',
-    repo: 'https://github.com/Floony7/react-dad-jokes', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
