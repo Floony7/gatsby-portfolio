@@ -41,8 +41,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'periodic.jpg',
+    title: 'React Periodic Table app',
+    info: 'Project that uses React and spedifically the Context API to produce a visualisation of the elements of the Periodic Table. Previously, this project used a  third-party API, however I created a new API with Node.js for the purposes of owning the data and persisting it as long as I liked.',
+    info2: '',
+    url: `${inactive}`,
+    repo: 'https://github.com/Floony7/periodic-table-app-react-context',
+  },
+  {
+    id: nanoid(),
     img: 'countries.jpg',
-    title: 'React Countries App',
+    title: 'React Countries app',
     info: 'Using a coutries API to pull data through on countries and the regions they are situated. Uses React Context API and React Router to display country pages.',
     info2: '',
     url: `${inactive}`,
