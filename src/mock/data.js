@@ -19,13 +19,13 @@ export const heroData = {
 export const aboutData = {
   img: 'fred.jpg',
   paragraphOne:
-    'In August 2021, amidst yet another lockdown in New Zealand, I moved from Marketing to the Soiftware Development team at motion capture glove company StretchSense.',
+    'In August 2021, amidst yet another lockdown in New Zealand, I moved from Marketing to the Software Development team at motion capture glove company StretchSense.',
   paragraphTwo:
-    'This was a momentous occasion for me as I had spent the past 5 years building my web development and React skills in the quest for transitioning to a dev role.',
+    'This was a momentous occasion for me, as I had spent the previous 5 years building my web development and React skills in my quest of a dev opportunity.',
   paragraphThree:
-    'Fast forward to 2023, I am still currently at StretchSense having been part of a software rebuild that has truly been the most incredible project I have ever worked on (no marketing project could ever come close!)',
+    'Fast forward to 2023, I am still currently at StretchSense, having been part of a software rebuild that has truly been the most incredible project I have ever worked on (no marketing project could ever come close!)',
     paragraphFour:
-    'As of October 2023, my priorities have shifted. I want to take my React, TypeScript and Git skills and apply them to web development, which has always been my "first love". I am excited to get back into web and focus on building viusually appealing and responsive interfaces.',
+    'As of October 2023, my priorities have shifted. I want to take my React, TypeScript, CSS and Git experience and make the move back to web development, which has always been my "first love". I am excited to get back into web and focus on building viusually appealing and responsive interfaces.',
   // resume: // if no resume, the button will not show up
 };
 
