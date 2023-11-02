@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Fred Lunjevich | Web Developer', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
-  description: 'Website of Kiwi developer Fred Lunjevich.', // e.g: Welcome to my website
+  title: 'Fred Lunjevich | Web Developer',
+  lang: 'en',
+  description: 'Website of Kiwi developer Fred Lunjevich.',
 };
 
 // HERO DATA
