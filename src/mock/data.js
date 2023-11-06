@@ -64,15 +64,15 @@ export const projectsData = [
     info: 'Piko Cafe redesign and development. Student run cafe in the Faculty of Hospitality, Auckland University of Technology.',
     info2: '',
     url: `${inactive}`,
-    repo: 'https://github.com/Floony7/react-countries-reference-app',
+    repo: '',
   },  {
     id: nanoid(),
     img: 'fourseasons.png',
     title: 'Four Seasons Restuarant',
-    info: 'Web development for Student run restaurant in the Faculty of Hospitality, Auckland University of Technology.',
+    info: 'Web development for student run restaurant in the Faculty of Hospitality, Auckland University of Technology.',
     info2: '',
     url: `${inactive}`,
-    repo: 'https://github.com/Floony7/react-countries-reference-app',
+    repo: '',
   },
 ];
 
