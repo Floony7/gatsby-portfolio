@@ -26,7 +26,7 @@ export const aboutData = {
   'I have reignited my love of Next.js and enjoying the process of getting back into the Jamstack universe, having also worked with Gatsby over the years.',  
   // resume: // if no resume, the button will not show up
 };
-const inactive = "Inactive";
+const inactive = "Inactive ";
 
 // PROJECTS DATA
 export const projectsData = [
