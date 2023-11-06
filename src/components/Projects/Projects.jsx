@@ -71,7 +71,7 @@ const Projects = () => {
                         >
                           Source Code
                         </a>
-                      ) : <span style={{ color: "fff", textTransform: "uppercase", fontSize: "1.75rem" }}>Proprietary code</span>}
+                      ) : <span style={{ color: "fff", textTransform: "uppercase", fontSize: "1.75rem" }}> Proprietary code</span>}
                     </div>
                   </Fade>
                 </Col>
