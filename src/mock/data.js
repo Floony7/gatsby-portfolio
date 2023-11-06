@@ -57,6 +57,23 @@ export const projectsData = [
     url: `${inactive}`,
     repo: 'https://github.com/Floony7/react-countries-reference-app',
   },
+  {
+    id: nanoid(),
+    img: 'piko.png',
+    title: 'Piko Cafe',
+    info: 'Piko Cafe redesign and development. Student run cafe in the Faculty of Hospitality, Auckland University of Technology.',
+    info2: '',
+    url: `${inactive}`,
+    repo: 'https://github.com/Floony7/react-countries-reference-app',
+  },  {
+    id: nanoid(),
+    img: 'fourseasons.png',
+    title: 'Four Seasons Restuarant',
+    info: 'Web development for Student run restaurant in the Faculty of Hospitality, Auckland University of Technology.',
+    info2: '',
+    url: `${inactive}`,
+    repo: 'https://github.com/Floony7/react-countries-reference-app',
+  },
 ];
 
 // CONTACT DATA
