@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, type, repo, img, id } = project;
 
             return (
               <Row key={id}>
@@ -71,7 +71,7 @@ const Projects = () => {
                         >
                           Source Code
                         </a>
-                      ) : <span style={{ color: "fff", textTransform: "uppercase", fontSize: "1.75rem" }}> Proprietary code</span>}
+                      ) : <span style={{ color: "fff", textTransform: "uppercase", fontSize: "1.75rem" }}>{typeToRepoText(type)}</span>}
                     </div>
                   </Fade>
                 </Col>
@@ -121,3 +121,14 @@ const Projects = () => {
 };
 
 export default Projects;
+
+function typeToRepoText(type) {
+  // convert type to repo status
+  if (type === "NO_REPO") {
+    return "No Repo";
+  } else if (type === "PRIVATE") {
+    return "Proprietary Code";
+  } else {
+    return "";
+  }
+}
