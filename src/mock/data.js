@@ -47,7 +47,7 @@ export const projectsData = [
     info: 'Hand Engine motion capture glove software - StretchSense.',
     info2: 'UI implementation for calibrating StretchSense Fidelity gloves.',
     type: "PRIVATE",
-    url: 'https://stretchsense.com/',
+    url: 'https://floony7.wistia.com/medias/07x2whfb3a',
     repo: 'Proprietary Software',
   },
   {
