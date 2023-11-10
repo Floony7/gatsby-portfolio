@@ -42,6 +42,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'smart-blend-ui.png',
+    title: 'Hand Engine glove calibration UI',
+    info: 'Hand Engine motion capture glove software - StretchSense.',
+    info2: 'UI implementation for calibrating StretchSense Fidelity gloves.',
+    type: "PRIVATE",
+    url: 'https://stretchsense.com/',
+    repo: 'Proprietary Software',
+  },
+  {
+    id: nanoid(),
     img: 'periodic.jpg',
     title: 'React Periodic Table app',
     info: 'Project that uses React and spedifically the Context API to produce a visualisation of the elements of the Periodic Table. Previously, this project used a  third-party API, however I created a new API with Node.js for the purposes of owning the data and persisting it as long as I liked.',
